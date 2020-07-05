@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(238, 228, 228);
+    font-family: 'Noto Serif', serif;
+}
+
+.navbar{
+    position:sticky;
+    top:0;
+    z-index:5;
+}
+.product-card{
+    border-color: transparent;
+    background:rgb(238, 228, 228);
+}
+.text-info{
+    color:rgb(26, 25, 25)!important;
+}
+.btn-info{
+    background:linear-gradient(to right, rgb(150, 146, 145),rgb(94, 93, 93));
+    border:none;
+    color:rgb(238, 228, 228);
+}
+.btn-info:hover{
+    background:rgb(150,62,42);
+}
+.product-price{
+    color:rgb(150,62,42);
+}
+.qty-back{
+    background:rgb(177, 176, 176);
+}
+.card-deck{
+    background:rgb(238, 228, 228);
+}
+.nav-back{
+    background:rgb(138,139,133);
+    color:rgb(26, 25, 25)
+}
+#qty-txt{
+    font-size: 14px;
+}
