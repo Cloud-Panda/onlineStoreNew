@@ -681,7 +681,7 @@ img.hover-shadow {
   }
 }
 
-@media only screen and (max-width:360px)
+@media only screen and (max-width:500px)
 {
   .Pics{
     width:360px;
@@ -710,4 +710,14 @@ img.hover-shadow {
   {
     flex:1;
   }
+
+.App{
+  display:block;
+}
+.first{
+  height:auto;
+}
+#description{
+  height:50vh;
+}
 }
